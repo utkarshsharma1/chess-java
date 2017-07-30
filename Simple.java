@@ -203,13 +203,13 @@ public class Simple extends ChessUI{
 			else if(a==3 & b==7 & c==5 & d==7 & whiteKing==1 & whiteRook2==1){
    				chessBoard[d][c]='K';
    				chessBoard[7][7]='-';
-      			chessBoard[b][a]='-';
-       			chessBoard[7][4]='R';
-       			showBoard();
+      				chessBoard[b][a]='-';
+       				chessBoard[7][4]='R';
+       				showBoard();
    			}
         	else if(a==3 & b==0 & c==5 & d==0 & blackKing==1 & blackRook2==1){
-        		chessBoard[d][c]='k';
-       			chessBoard[0][0]='-';
+        			chessBoard[d][c]='k';
+       				chessBoard[7][0]='-';
    				chessBoard[b][a]='-';
    				chessBoard[0][4]='r';
    				showBoard();
