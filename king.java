@@ -38,7 +38,7 @@ public class king extends Simple{
 					JOptionPane.showMessageDialog(null, "Wow white Rook you just checked black king", "Check Warning", JOptionPane.WARNING_MESSAGE);
 				}break;
 		
-		case 'r' : if(R2==kR | KC==C2){
+		case 'r' : if(R2==KR | KC==C2){
 				if(noPieceRook(R2,C2,KR,KC))
 					JOptionPane.showMessageDialog(null, "Wow black Rook you just checked white king", "Check Warning", JOptionPane.WARNING_MESSAGE);
 				}break;
